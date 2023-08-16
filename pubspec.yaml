@@ -1,0 +1,33 @@
+name: flutter_proyecto_2p
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.8.3
+  sqflite: ^2.3.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/tienda.png
+  - images/agg.png
+  - images/producto.png
+  - images/facnew.png
+  - images/report.png
+  - images/cerrarsesion.png
+  - images/productoPage.png
+  - images/registrarProducto.png
+  - images/reportePage.png
+  - images/facturacion.png
